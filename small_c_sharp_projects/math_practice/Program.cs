@@ -34,6 +34,94 @@ while (true)
 
             if (userAnswer == operationAnswer)
             {
+                Console.WriteLine("CORRECT! Input 1 for another addition problem. Input 2 to select a new operation problem");
+                int userContinueOption = Int32.Parse(Console.ReadLine());
+                if (userContinueOption == 1)
+                {
+                    continue;
+                }
+                else if (userContinueOption == 2)
+                {
+                    break;
+                }
+            }
+            else
+            {
+                Console.WriteLine($"nope! Answer is: {operationAnswer}. Input 1 for another addition problem. Input 2 to select a new operation problem");
+                int userContinueOption = Int32.Parse(Console.ReadLine());
+                if (userContinueOption == 1)
+                {
+                    continue;
+                }
+                else if (userContinueOption == 2)
+                {
+                    break;
+                }
+            }
+
+
+        }
+    }
+    else if (userSelection == 2)
+    {   
+        while (true)
+        {
+            Console.Clear(); 
+
+            Random rnd = new Random();
+            int firstValue = rnd.Next(1,100);
+            int secondValue = rnd.Next(1, 100);
+            int operationAnswer = firstValue - secondValue;
+
+            // turn into a function later and apply to each section
+            Console.WriteLine($"Addition: {firstValue} - {secondValue}");
+            int userAnswer = Int32.Parse(Console.ReadLine());
+
+            if (userAnswer == operationAnswer)
+            {
+                Console.WriteLine("CORRECT! Input 1 for another subtraction problem. Input 2 to select a new operation problem");
+                int userContinueOption = Int32.Parse(Console.ReadLine());
+                if (userContinueOption == 1)
+                {
+                    continue;
+                }
+                else if (userContinueOption == 2)
+                {
+                    break;
+                }
+            }
+            else
+            {
+                Console.WriteLine($"nope! Answer is: {operationAnswer}. Input 1 for another subtraction problem. Input 2 to select a new operation problem");
+                int userContinueOption = Int32.Parse(Console.ReadLine());
+                if (userContinueOption == 1)
+                {
+                    continue;
+                }
+                else if (userContinueOption == 2)
+                {
+                    break;
+                }
+            }
+        }
+    }
+    else if (userSelection == 3)
+    {
+        while (true)
+        {
+            Console.Clear(); 
+
+            Random rnd = new Random();
+            int firstValue = rnd.Next(1,20);
+            int secondValue = rnd.Next(1, 20);
+            int operationAnswer = firstValue * secondValue;
+
+            // turn into a function later and apply to each section
+            Console.WriteLine($"Addition: {firstValue} x {secondValue}");
+            int userAnswer = Int32.Parse(Console.ReadLine());
+
+            if (userAnswer == operationAnswer)
+            {
                 Console.WriteLine("CORRECT! Input 1 for another multiplication problem. Input 2 to select a new operation problem");
                 int userContinueOption = Int32.Parse(Console.ReadLine());
                 if (userContinueOption == 1)
@@ -58,25 +146,53 @@ while (true)
                     break;
                 }
             }
-
-
         }
-    }
-    else if (userSelection == 2)
-    {
-        Console.WriteLine("2");
-    }
-    else if (userSelection == 3)
-    {
-        Console.WriteLine("3");
     }
     else if (userSelection == 4)
     {
-        Console.WriteLine("4");
+        while (true)
+        {
+            Console.Clear(); 
+
+            Random rnd = new Random();
+            int firstValue = rnd.Next(1,20);
+            int secondValue = rnd.Next(1, 20);
+            decimal operationAnswer = firstValue / secondValue;
+
+            // turn into a function later and apply to each section
+            Console.WriteLine($"Addition: {firstValue} / {secondValue}");
+            int userAnswer = Int32.Parse(Console.ReadLine());
+
+            if (userAnswer == operationAnswer)
+            {
+                Console.WriteLine("CORRECT! Input 1 for another division problem. Input 2 to select a new operation problem");
+                int userContinueOption = Int32.Parse(Console.ReadLine());
+                if (userContinueOption == 1)
+                {
+                    continue;
+                }
+                else if (userContinueOption == 2)
+                {
+                    break;
+                }
+            }
+            else
+            {
+                Console.WriteLine($"nope! Answer is: {operationAnswer}. Input 1 for another division problem. Input 2 to select a new operation problem");
+                decimal userContinueOption = Int32.Parse(Console.ReadLine());
+                if (userContinueOption == 1)
+                {
+                    continue;
+                }
+                else if (userContinueOption == 2)
+                {
+                    break;
+                }
+            }
+        }
     }
     else if (userSelection == 5)
     {
-        Console.WriteLine("5");
         break;
     }
     else 
