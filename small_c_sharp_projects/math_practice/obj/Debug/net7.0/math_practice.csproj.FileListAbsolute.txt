@@ -1,0 +1,15 @@
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/obj/Debug/net7.0/math_practice.csproj.AssemblyReference.cache
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/obj/Debug/net7.0/math_practice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/obj/Debug/net7.0/math_practice.AssemblyInfoInputs.cache
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/obj/Debug/net7.0/math_practice.AssemblyInfo.cs
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/obj/Debug/net7.0/math_practice.csproj.CoreCompileInputs.cache
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/bin/Debug/net7.0/math_practice
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/bin/Debug/net7.0/math_practice.deps.json
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/bin/Debug/net7.0/math_practice.runtimeconfig.json
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/bin/Debug/net7.0/math_practice.dll
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/bin/Debug/net7.0/math_practice.pdb
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/obj/Debug/net7.0/math_practice.dll
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/obj/Debug/net7.0/refint/math_practice.dll
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/obj/Debug/net7.0/math_practice.pdb
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/obj/Debug/net7.0/math_practice.genruntimeconfig.cache
+/Users/robbeatty/repos/small_c_sharp_projects/small_c_sharp_projects/math_practice/obj/Debug/net7.0/ref/math_practice.dll
