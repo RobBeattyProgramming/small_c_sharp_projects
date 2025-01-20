@@ -29,7 +29,7 @@ while (true)
             int operationAnswer = firstValue + secondValue;
 
             // turn into a function later and apply to each section
-            Console.WriteLine($"Addition: {firstValue} + {secondValue}");
+            Console.WriteLine($"Subtraction: {firstValue} + {secondValue}");
             int userAnswer = Int32.Parse(Console.ReadLine());
 
             if (userAnswer == operationAnswer)
@@ -117,7 +117,7 @@ while (true)
             int operationAnswer = firstValue * secondValue;
 
             // turn into a function later and apply to each section
-            Console.WriteLine($"Addition: {firstValue} x {secondValue}");
+            Console.WriteLine($"Multiplication: {firstValue} x {secondValue}");
             int userAnswer = Int32.Parse(Console.ReadLine());
 
             if (userAnswer == operationAnswer)
@@ -157,11 +157,13 @@ while (true)
             Random rnd = new Random();
             int firstValue = rnd.Next(1,20);
             int secondValue = rnd.Next(1, 20);
-            decimal operationAnswer = firstValue / secondValue;
+            decimal operationAnswerUnrounded = (decimal)firstValue / secondValue;
+            decimal operationAnswer = Math.Round(operationAnswerUnrounded,2);
+            
 
             // turn into a function later and apply to each section
-            Console.WriteLine($"Addition: {firstValue} / {secondValue}");
-            int userAnswer = Int32.Parse(Console.ReadLine());
+            Console.WriteLine($"Division: {firstValue} / {secondValue}");
+            decimal userAnswer = Decimal.Parse(Console.ReadLine());
 
             if (userAnswer == operationAnswer)
             {
