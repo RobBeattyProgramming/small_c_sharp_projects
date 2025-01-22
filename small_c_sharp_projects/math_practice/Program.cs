@@ -6,6 +6,21 @@ operationSelectionList.Add(2, "Subtraction");
 operationSelectionList.Add(3, "Multiplication");
 operationSelectionList.Add(4, "Division");
 
+string passwordInput = "";
+
+do {
+    Console.Clear();
+    if (passwordInput != "")
+    {
+        Console.WriteLine("Sorry, the password you have entered is incorrect! Please try again\n\n");
+    }
+    Console.WriteLine("Please enter password to use. \n  Hint: It's a terrible password:");
+    passwordInput = Console.ReadLine();
+    passwordInput = passwordInput.Trim();
+    passwordInput = passwordInput.ToLower();
+} while (passwordInput != "password");
+Console.Clear();
+
 while (true)
 {
     Console.WriteLine("Which math operation would you like to practice? Enter 5 to end program.\n");
