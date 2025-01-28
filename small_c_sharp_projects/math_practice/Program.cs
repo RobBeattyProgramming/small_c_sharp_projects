@@ -1,5 +1,7 @@
 ﻿Console.Clear();
 
+//add TryParse() method once classes get to functions
+
 Dictionary<int, string> operationSelectionList = new Dictionary<int, string>();
 operationSelectionList.Add(1, "Addition");
 operationSelectionList.Add(2, "Subtraction");
